@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4876980329AF2B528E5CBF48 /* Pods_SmartFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA653F099399C2702A351CC /* Pods_SmartFish.framework */; };
+		63DE32E1295D54C00095969D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE32E0295D54C00095969D /* AppDelegate.swift */; };
+		63DE32E3295D54C00095969D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE32E2295D54C00095969D /* SceneDelegate.swift */; };
+		63DE32E5295D54C00095969D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE32E4295D54C00095969D /* ViewController.swift */; };
+		63DE32E8295D54C00095969D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DE32E6295D54C00095969D /* Main.storyboard */; };
+		63DE32EB295D54C00095969D /* SmartFish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63DE32E9295D54C00095969D /* SmartFish.xcdatamodeld */; };
+		63DE32ED295D54C20095969D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DE32EC295D54C20095969D /* Assets.xcassets */; };
+		63DE32F0295D54C20095969D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DE32EE295D54C20095969D /* LaunchScreen.storyboard */; };
+		63DE32FB295D585B0095969D /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE32FA295D585B0095969D /* DeviceViewController.swift */; };
+		63DE32FE295D60520095969D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE32FD295D60520095969D /* CardView.swift */; };
+		63DE3300295D6AF70095969D /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE32FF295D6AF70095969D /* PopupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49821B9FF25CC260D12EF7D3 /* Pods-SmartFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFish.release.xcconfig"; path = "Target Support Files/Pods-SmartFish/Pods-SmartFish.release.xcconfig"; sourceTree = "<group>"; };
+		63DE32DD295D54C00095969D /* SmartFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DE32E0295D54C00095969D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63DE32E2295D54C00095969D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63DE32E4295D54C00095969D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63DE32E7295D54C00095969D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63DE32EA295D54C00095969D /* SmartFish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartFish.xcdatamodel; sourceTree = "<group>"; };
+		63DE32EC295D54C20095969D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63DE32EF295D54C20095969D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63DE32F1295D54C20095969D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DE32FA295D585B0095969D /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		63DE32FD295D60520095969D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		63DE32FF295D6AF70095969D /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		6B9329166E593106620D9E32 /* Pods-SmartFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFish.debug.xcconfig"; path = "Target Support Files/Pods-SmartFish/Pods-SmartFish.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA653F099399C2702A351CC /* Pods_SmartFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63DE32DA295D54C00095969D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4876980329AF2B528E5CBF48 /* Pods_SmartFish.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46BDE2CC1817247E662BB0A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CA653F099399C2702A351CC /* Pods_SmartFish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63DE32D4295D54C00095969D = {
+			isa = PBXGroup;
+			children = (
+				63DE32DF295D54C00095969D /* SmartFish */,
+				63DE32DE295D54C00095969D /* Products */,
+				73BC4F424852DE75D0F5BB38 /* Pods */,
+				46BDE2CC1817247E662BB0A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63DE32DE295D54C00095969D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63DE32DD295D54C00095969D /* SmartFish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63DE32DF295D54C00095969D /* SmartFish */ = {
+			isa = PBXGroup;
+			children = (
+				63DE32FC295D603C0095969D /* Views */,
+				63DE32F7295D58060095969D /* ViewControllers */,
+				63DE32E0295D54C00095969D /* AppDelegate.swift */,
+				63DE32E2295D54C00095969D /* SceneDelegate.swift */,
+				63DE32E6295D54C00095969D /* Main.storyboard */,
+				63DE32EC295D54C20095969D /* Assets.xcassets */,
+				63DE32EE295D54C20095969D /* LaunchScreen.storyboard */,
+				63DE32F1295D54C20095969D /* Info.plist */,
+				63DE32E9295D54C00095969D /* SmartFish.xcdatamodeld */,
+			);
+			path = SmartFish;
+			sourceTree = "<group>";
+		};
+		63DE32F7295D58060095969D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				63DE32E4295D54C00095969D /* ViewController.swift */,
+				63DE32FA295D585B0095969D /* DeviceViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		63DE32FC295D603C0095969D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63DE32FD295D60520095969D /* CardView.swift */,
+				63DE32FF295D6AF70095969D /* PopupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73BC4F424852DE75D0F5BB38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B9329166E593106620D9E32 /* Pods-SmartFish.debug.xcconfig */,
+				49821B9FF25CC260D12EF7D3 /* Pods-SmartFish.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63DE32DC295D54C00095969D /* SmartFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DE32F4295D54C20095969D /* Build configuration list for PBXNativeTarget "SmartFish" */;
+			buildPhases = (
+				2A99959FB800746300F7D9FF /* [CP] Check Pods Manifest.lock */,
+				63DE32D9295D54C00095969D /* Sources */,
+				63DE32DA295D54C00095969D /* Frameworks */,
+				63DE32DB295D54C00095969D /* Resources */,
+				7CC517C5FE27F5660724CD81 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartFish;
+			productName = SmartFish;
+			productReference = 63DE32DD295D54C00095969D /* SmartFish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63DE32D5295D54C00095969D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					63DE32DC295D54C00095969D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 63DE32D8295D54C00095969D /* Build configuration list for PBXProject "SmartFish" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63DE32D4295D54C00095969D;
+			productRefGroup = 63DE32DE295D54C00095969D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63DE32DC295D54C00095969D /* SmartFish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63DE32DB295D54C00095969D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DE32F0295D54C20095969D /* LaunchScreen.storyboard in Resources */,
+				63DE32ED295D54C20095969D /* Assets.xcassets in Resources */,
+				63DE32E8295D54C00095969D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A99959FB800746300F7D9FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartFish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CC517C5FE27F5660724CD81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartFish/Pods-SmartFish-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartFish/Pods-SmartFish-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartFish/Pods-SmartFish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63DE32D9295D54C00095969D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DE3300295D6AF70095969D /* PopupView.swift in Sources */,
+				63DE32E5295D54C00095969D /* ViewController.swift in Sources */,
+				63DE32E1295D54C00095969D /* AppDelegate.swift in Sources */,
+				63DE32E3295D54C00095969D /* SceneDelegate.swift in Sources */,
+				63DE32FE295D60520095969D /* CardView.swift in Sources */,
+				63DE32EB295D54C00095969D /* SmartFish.xcdatamodeld in Sources */,
+				63DE32FB295D585B0095969D /* DeviceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63DE32E6295D54C00095969D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DE32E7295D54C00095969D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63DE32EE295D54C20095969D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DE32EF295D54C20095969D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63DE32F2295D54C20095969D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63DE32F3295D54C20095969D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63DE32F5295D54C20095969D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9329166E593106620D9E32 /* Pods-SmartFish.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GL4HTN9K7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartFish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqpersonal.SmartFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63DE32F6295D54C20095969D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49821B9FF25CC260D12EF7D3 /* Pods-SmartFish.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GL4HTN9K7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartFish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqpersonal.SmartFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63DE32D8295D54C00095969D /* Build configuration list for PBXProject "SmartFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DE32F2295D54C20095969D /* Debug */,
+				63DE32F3295D54C20095969D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DE32F4295D54C20095969D /* Build configuration list for PBXNativeTarget "SmartFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DE32F5295D54C20095969D /* Debug */,
+				63DE32F6295D54C20095969D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63DE32E9295D54C00095969D /* SmartFish.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63DE32EA295D54C00095969D /* SmartFish.xcdatamodel */,
+			);
+			currentVersion = 63DE32EA295D54C00095969D /* SmartFish.xcdatamodel */;
+			path = SmartFish.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63DE32D5295D54C00095969D /* Project object */;
+}
